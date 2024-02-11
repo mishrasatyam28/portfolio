@@ -7,7 +7,9 @@ function App() {
     <div>
       <Navbar />
       <Home />
+<h1>hello</h1>
     </div>
+
   );
 }
 
