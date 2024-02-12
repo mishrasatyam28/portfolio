@@ -27,7 +27,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-        {/* 42 */}
+
         <div className="bg-gradient-to-bl from-blue-800 via-blue-400 to-blue-600  max-w-80  rounded-2xl md:w-full">
           <img
             className="rounded-2xl mx-auto"
