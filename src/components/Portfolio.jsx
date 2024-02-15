@@ -11,37 +11,37 @@ const Portfolio = () => {
     {
       id: 1,
       src: cryptoTracker,
-      demo: "dekhocryptotracker.netlify.app/",
+      demo: "https://dekhocryptotracker.netlify.app/",
       code: "https://github.com/mishrasatyam28/react-crypto-app",
     },
     {
       id: 2,
       src: loruki,
-      demo: "loruki-cloud-hoisting.netlify.app/",
+      demo: "https://loruki-cloud-hoisting.netlify.app/",
       code: "https://github.com/mishrasatyam28/loruki-website",
     },
     {
       id: 3,
       src: myPortfolio,
-      demo: "satyammishra28.netlify.app/",
+      demo: "https://satyammishra28.netlify.app/",
       code: "https://github.com/mishrasatyam28/portfolio",
     },
     {
       id: 4,
       src: satyamRestro,
-      demo: "satyam-restro.netlify.app/",
+      demo: "https://satyam-restro.netlify.app/",
       code: "https://github.com/mishrasatyam28/Food-Website",
     },
     {
       id: 5,
       src: shoppingCart,
-      demo: "",
+      demo: "https://github.com/mishrasatyam28/chai-aur-react",
       code: "https://github.com/mishrasatyam28/chai-aur-react",
     },
     {
       id: 6,
       src: todoImage,
-      demo: "",
+      demo: "https://github.com/mishrasatyam28/chai-aur-react",
       code: "https://github.com/mishrasatyam28/chai-aur-react",
     },
   ];
@@ -71,12 +71,12 @@ const Portfolio = () => {
               />
               <div key={id} className="flex items-center justify-center ">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={demo} target="_blank" rel="noopener noreferrer">
+                  <a href={demo} target={"blank"} rel="noopener noreferrer">
                     Demo
                   </a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={code} target="_blank">
+                  <a href={code} target={"blank"}>
                     Code
                   </a>
                 </button>
