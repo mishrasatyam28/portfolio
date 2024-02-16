@@ -1,10 +1,13 @@
 import React from "react";
+import { MdOutlineMail } from "react-icons/md";
+import { BsWhatsapp } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
 
 const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white max-[500px]:h-full"
+      className="w-full h-full bg-gradient-to-b from-black to-gray-800 p-4 text-white max-[500px]:h-full"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -37,6 +40,38 @@ const Contact = () => {
               Let's talk
             </button>
           </form>
+        </div>
+      </div>
+      {/* mine */}
+      <div className="flex flex-col p-4 justify-center max-w-screen-sm mx-auto h-full">
+        <div className="grid grid-cols-1  p-4 mt-8">
+          <article className="flex flex-col items-center justify-cent mb-2 p-4 gap-1 rounded-lg border-2  border-cyan-500">
+            <MdOutlineMail size={30} />
+            <h4>Email</h4>
+            <h5>satyammishra.work@gmail.com</h5>
+            <a href="mailto:satyammishra.work@gmail.com" target="_blank">
+              Send a message
+            </a>
+          </article>
+          <article className="flex flex-col items-center justify-cent mb-2 p-4 gap-1 rounded-lg border-2  border-cyan-500">
+            <AiFillGithub size={30} />
+            <h4>Github</h4>
+            <h5>satyammishra.work@gmail.com</h5>
+            <a href="https://github.com/mishrasatyam28" target="_blank">
+              Check projects
+            </a>
+          </article>
+          <article className="flex flex-col items-center justify-cent mb-2 p-4 gap-1 rounded-lg border-2  border-cyan-500">
+            <BsWhatsapp size={30} />
+            <h4>WhatsApp</h4>
+            <h5>satyammishra.work@gmail.com</h5>
+            <a
+              href="https://api.whatsapp.com/send?phone=8130308421"
+              target="_blank"
+            >
+              Send a message
+            </a>
+          </article>
         </div>
       </div>
     </div>
