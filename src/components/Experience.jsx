@@ -9,6 +9,8 @@ import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
+import express from "../assets/express.png";
+import mongodb from "../assets/MongoDB.png";
 
 const Experience = () => {
   const skills = [
@@ -48,14 +50,27 @@ const Experience = () => {
       title: "Node",
       style: "shadow-green-400",
     },
+
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: express,
+      title: "Express",
+      style: "shadow-gray-600",
     },
     {
       id: 8,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 9,
+      src: nextjs,
+      title: "NextJS",
+      style: "shadow-gray-100",
+    },
+    {
+      id: 10,
       src: github,
       title: "Github",
       style: "shadow-gray-400",
@@ -65,7 +80,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen max-[500px]:h-full "
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen max-[500px]:h-full pt-4 "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

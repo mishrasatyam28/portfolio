@@ -3,8 +3,33 @@ import HeroImage from "../assets/heroImageCompress.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+// social links
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Home = () => {
+  const links = [
+    {
+      id: 1,
+      child: <FaLinkedin size={30} />,
+      href: "https://www.linkedin.com/in/satyam-mishra-4220a721a/",
+    },
+    {
+      id: 2,
+      child: <FaGithub size={30} />,
+      href: "https://github.com/mishrasatyam28",
+    },
+    {
+      id: 3,
+      child: <HiOutlineMail size={30} />,
+      href: "mailto:satyammishra.work@gmail.com",
+    },
+    {
+      id: 4,
+      child: <FaInstagram size={30} />,
+      href: "/resume.pdf",
+    },
+  ];
   const [text] = useTypewriter({
     words: ["Developer", "Editor", "Designer", "Coder!"],
     loop: Infinity,
@@ -29,6 +54,20 @@ const Home = () => {
             Currently, I love to work on web application using technologies like
             React, Tailwind and Nodejs.
           </p>
+          {/* Social links */}
+          <div className="lg:hidden">
+            {links.map((link) => (
+              <a
+                key={link.id}
+                href={link.href}
+                className="inline-block text-white m-2 hover:scale-150 duration-200"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {link.child}
+              </a>
+            ))}
+          </div>
           <div>
             <Link
               to="portfolio"
