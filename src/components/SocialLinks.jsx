@@ -34,7 +34,7 @@ const SocialLinks = () => {
           <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:satyammishra.work@gmail.com",
+      href: "mailto:satyamsumit8750@gmail.com",
     },
     {
       id: 4,
@@ -44,9 +44,9 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "https://drive.google.com/file/d/13riLU8z-9iEWRL3Vm_rnhjwdUYgdZ-PD/view?usp=sharing",
       style: "rounded-br-md",
-      download: true,
+      // download: true,
     },
   ];
 
@@ -65,7 +65,7 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              download={download}
+              // download={download}
               target="_blank"
               rel="noreferrer"
             >

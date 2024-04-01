@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/heroImageCompress.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { IoDownloadOutline } from "react-icons/io5";
 import { Link } from "react-scroll";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 // social links
@@ -22,12 +23,12 @@ const Home = () => {
     {
       id: 3,
       child: <HiOutlineMail size={30} />,
-      href: "mailto:satyammishra.work@gmail.com",
+      href: "mailto:satyamsumit8750@gmail.com",
     },
     {
       id: 4,
       child: <FaInstagram size={30} />,
-      href: "/resume.pdf",
+      href: "https://www.instagram.com/iamsatyam28/",
     },
   ];
   const [text] = useTypewriter({
@@ -68,7 +69,7 @@ const Home = () => {
               </a>
             ))}
           </div>
-          <div>
+          <div className="flex gap-10">
             <Link
               to="portfolio"
               smooth
@@ -80,6 +81,18 @@ const Home = () => {
                 <MdOutlineKeyboardArrowRight size={25} className="mt-1" />
               </span>
             </Link>
+            <a
+              href="https://drive.google.com/file/d/13riLU8z-9iEWRL3Vm_rnhjwdUYgdZ-PD/view?usp=sharing"
+              target="_blank"
+              smooth
+              duration={500}
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer   "
+            >
+              Resume
+              <span className="group-hover:rotate-90">
+                <IoDownloadOutline size={20} className="-mt-1" />
+              </span>
+            </a>
           </div>
         </div>
 
