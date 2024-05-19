@@ -7,16 +7,17 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-full bg-gradient-to-b from-black to-gray-800 p-4 text-white max-[500px]:h-full"
+      className="w-full h-full bg-gradient-to-b from-black to-gray-800 p-4 text-white max-[500px]:h-full
+      "
     >
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full ">
         <div className="pb-8">
           <p className="text-4xl font-bold border-b-4 inline border-gray-500 ">
             Contact{" "}
           </p>
           <p className="py-6">Submit the form below to get in touch with me </p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
           <form
             action="https://getform.io/f/warkypwb"
             method="POST"
@@ -47,7 +48,7 @@ const Contact = () => {
         </div>
       </div>
       {/* mine */}
-      <div className="flex flex-col p-4 justify-center max-w-screen-sm mx-auto h-full lg:max-w-screen-lg ">
+      <div className="flex flex-col p-4 justify-center max-w-screen-sm mx-auto h-full lg:max-w-screen-lg">
         <div className="grid grid-cols-1  p-4  lg:flex lg:justify-center ">
           <article className="flex flex-col items-center justify-cent mb-4 p-4 gap-1 rounded-lg  lg:mx-auto shadow-md hover:scale-105 duration-500 shadow-red-400">
             <MdOutlineMail size={30} />
