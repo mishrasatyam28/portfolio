@@ -53,19 +53,19 @@ const Contact = () => {
           <article className="flex flex-col items-center justify-cent mb-4 p-4 gap-1 rounded-lg  lg:mx-auto shadow-md hover:scale-105 duration-500 shadow-red-400">
             <MdOutlineMail size={30} />
             <h4>Email</h4>
-            <h5>satyammishra.work@gmail.com</h5>
+            <h5>Please drop mail here!</h5>
             <a
               href="mailto:satyammishra.work@gmail.com"
               target="_blank"
               className="p-2 mt-2 hover:border-2 hover:border-cyan-400 rounded-md"
             >
-              Send a message
+              Write me
             </a>
           </article>
           <article className="flex flex-col  items-center justify-cent mb-4 p-4 gap-1 rounded-lg  lg:mx-auto shadow-md hover:scale-105 duration-500 shadow-gray-400">
             <AiFillGithub size={30} />
             <h4>Github</h4>
-            <h5>satyammishra.work@gmail.com</h5>
+            <h5>Check all Repos here</h5>
             <a
               href="https://github.com/mishrasatyam28"
               target="_blank "
@@ -77,7 +77,7 @@ const Contact = () => {
           <article className="flex flex-col items-center justify-cent mb-4 p-4 gap-1 rounded-lg  lg:mx-auto shadow-md hover:scale-105 duration-500 shadow-green-400">
             <BsWhatsapp size={30} />
             <h4>WhatsApp</h4>
-            <h5>satyammishra.work@gmail.com</h5>
+            <h5>Please drop text here</h5>
             <a
               href="https://api.whatsapp.com/send?phone=8130308421"
               target="_blank"

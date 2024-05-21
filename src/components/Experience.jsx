@@ -11,6 +11,7 @@ import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import express from "../assets/express.png";
 import mongodb from "../assets/MongoDB.png";
+import typescript from "../assets/typescript.png";
 
 const Experience = () => {
   const skills = [
@@ -74,6 +75,12 @@ const Experience = () => {
       src: github,
       title: "Github",
       style: "shadow-gray-400",
+    },
+    {
+      id: 11,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-400",
     },
   ];
 

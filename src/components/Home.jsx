@@ -46,7 +46,7 @@ const Home = () => {
           <h3 className="text-4xl sm:text-7xl font-bold text-white max-[500px]:text-4xl max-[500px]:pt-6">
             I am
           </h3>
-          <h2 className="text-4xl sm:text-7xl font-bold text-white max-[500px]:text-4xl max-[500px]:pt-4">
+          <h2 className="text-4xl sm:text-7xl font-bold text-white max-[500px]:text-4xl max-[500px]:pt-4 ">
             {text}
             <Cursor cursorColor="#508CE8" />
           </h2>
@@ -96,9 +96,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="bg-gradient-to-bl from-blue-800 via-blue-400 to-blue-600  max-w-80  rounded-2xl md:w-full max-[500px]:w-2/3 max-[500px]:-mt-8 lg:ml-20 md:ml-6">
+        <div className="bg-gradient-to-bl from-blue-800 via-blue-400 to-blue-600  max-w-80  rounded-2xl md:w-full max-[500px]:w-2/3 max-[500px]:-mt-8 lg:ml-20 md:ml-6 hover:scale-110 duration-700">
           <img
-            className="rounded-2xl mx-auto "
+            className="rounded-2xl mx-auto hover:scale-100 duration-700"
             src={HeroImage}
             alt="my-profile"
           />
